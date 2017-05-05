@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Arial';
+    font-family: 'arial';
 }
 .row {
     display: flex;
@@ -34,7 +34,6 @@ body {
     font-size: 25px;
     color: #828282;
     text-align: center;
-    width: 25px;
     margin: 0 auto;
     padding: 10px 20px;
     border: 2px solid #ededed;
@@ -60,6 +59,7 @@ hr {
     text-align: center;
     font-family: sans-serif;
     font-size: 14px;
+    font-weight: bold;
 }
 .subhead .col-2 p {
     color: #677a98;
@@ -76,7 +76,7 @@ hr {
 }
 #briefing {
     font-size: 25px;
-    font-weight: 900;
+    font-weight: 800;
     margin: 5px 0 0 15px
 }
 h2 {
@@ -87,7 +87,7 @@ h2 {
 }
 #time {
     margin-left: 15px;
-    color: rgb(186, 186, 186);
+    color: rgb(186, 186, 186)
 }
 #read p{
     color: #677a98;
@@ -110,15 +110,16 @@ h1 {
     font-size: 20px;
     font-weight: 900;
     margin-left: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
-.divide{
+.divide {
     width: 100%;
     height: 10px;
-    background-color: #e9e9e9;
-    border-top: 1px #e6ece8;
-    border-bottom: 1px #e6ece8;
-    margin-bottom: 10px;
+    background-color: #EEE;
+    border-top: solid #d2d7dd;
+    border-bottom: solid #d2d7dd;
+    border-width: thin;
+    margin-bottom: 10px;   
 }
 .col-8 h3{
     margin-left: 15px;
@@ -129,26 +130,34 @@ h1 {
 }
 .col-8 p {
     margin: 5px 15px 50px 15px;
-    color: grey;
+    font-family: times;
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    
 }
 .col-4 img {
     display: block;
-    margin: 10
+    margin: 10px auto;
     padding: 0;
     width: 55%;
 }
 .col-8 h1 {
     margin: 0 15px;
-    font-family: serif;
+    font-family: georgia;
     font-size: 25px;
+    font-weight: bold;
 }
 a {
     font-size: 30px;
     color: #677a98;
     margin: 0 15px;
 }
-
-
+.play {
+    background-color: rgb(240,240,240);
+    height: 15px;
+    margin: 10px 0 50px 10px;
+}
      
 
 
