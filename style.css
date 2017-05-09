@@ -8,7 +8,7 @@ body {
 }
 .col-2 {
     width: 10%;
-    padding-left: 15px;
+    padding-left: 20px;
     padding-right:15px;
     }
 .col-3 {
@@ -34,7 +34,7 @@ body {
     color: #828282;
     text-align: center;
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 10px 10px;
     border: 2px solid #ededed;
     border-radius: 5px;
     position: relative;
@@ -43,7 +43,7 @@ body {
     background-color: #f7f7f7;
 }
 .header img {
-    height: 48px;
+    height: 45px;
     display: block;
     margin: auto;
     position: relative;
