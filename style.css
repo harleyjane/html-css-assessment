@@ -1,31 +1,30 @@
 body {
     margin: 0;
-    font-family: 'arial';
+    font-family: sans-serif;
 }
 .row {
     display: flex;
+    justify-content: space-between;
 }
 .col-2 {
-    width: 16.666%;
-}
+    width: 10%;
+    padding-left: 15px;
+    padding-right:15px;
+    }
 .col-3 {
     width: 25%;
 }   
 .col-4 {
     width: 33.333%;
 }
-.col-5 {
-    width: 41.66%;
-}
 .col-6 {
     width: 50%;
 }
 .col-8 {
-    width: 66.666%;
-    
+    width: 65%;  
 }
 .col-10{
-    width: 83.333%;
+    width: 100%;
 }
 .header {
     height: 70px;
@@ -44,73 +43,113 @@ body {
     background-color: #f7f7f7;
 }
 .header img {
-    height: 40px;
+    height: 48px;
     display: block;
-    margin: 0 auto;
+    margin: auto;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
-hr {
-    margin: 0;
-    border: 1px solid #ededed;
-}
 .subhead {
-    text-align: center;
+    display: flex; 
+    justify-content: space-between;
+}
+.up {
+    border: 1px solid #ededed;
+} 
+#date {
+    margin-left: 15px;
     font-family: sans-serif;
-    font-size: 14px;
-    font-weight: bold;
+    color: #828282;
+    font-size: 15px;
+    font-weight: bolder; 
 }
-.subhead .col-2 p {
-    color: #677a98;
-    font-weight: 600;
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 15px;
 }
-#log {
-    width: 70px;
-    margin-left: auto;
-    margin-right: auto;
-    border-left: 3px solid #e6e0db;
+.sub {
+  font-size: 16px;
+  font-weight: 700;
+  color: #657496;
+  letter-spacing: -1.1px;
+  padding-right: 5px;
+  }
+.centdiv {
+  font-size: 15px;
+  color: #dfdfdf;
 }
+.log {
+  font-size: 16px;
+  font-weight: 700;
+  color: #657496;
+  letter-spacing: -1.3px;
+  padding-left: 5px;
+} 
 #oreilly {
-    width: 100%
+  width: 100%
 }
 #briefing {
-    font-size: 25px;
-    font-weight: 800;
-    margin: 5px 0 0 15px
+    font-family: arial black;
+    font-size: 32px;
+    letter-spacing: -.9px;
+    margin: 10px 0 0 20px
+    
 }
 h2 {
-    font-size: 20px;
-    color: #8a8c8f;
-    margin: 0 15px;
-    font-weight: lighter;
+    font-size: 27px;
+    color: #aaa;
+    font-weight: 600;
+    margin: 5px 20px;
+   
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: #8ea4bb;
+    font-weight: 700;
+    margin-right: 20px;
 }
 #time {
-    margin-left: 15px;
-    color: rgb(186, 186, 186)
-}
-#read p{
-    color: #677a98;
-    font-weight: 600;
-    text-align: right;
-}
-#share p{
-    text-align: center;
-    color: #677a98;
-    font-weight: 600;
     margin-left: 20px;
-    width: 80px;
-    border-left: 3px solid #e6e0db;
+    color: #bbb;
+    font-weight: bold;
+}   
+.read {
+  font-size: 17px;
+  font-weight: bold;
+  color: #89b;
+  padding-right: 5px;
 }
-#short {
-    margin: 10px 15px;
+.share {
+    font-size: 17px;
+  font-weight: bold;
+  color: #89b;
+  padding-left: 5px;
 }
-
-h1 {
-    font-size: 20px;
-    font-weight: 900;
-    margin-left: 15px;
-    margin-bottom: 20px;
+hr {
+    border: 1px solid #ededed;
+    width: 95%;
+}
+#ny {
+  font-family: arial black;
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 20px;
+  letter-spacing: -2px;
+  }
+#list {
+  font-family: serif;
+  color: black;
+  letter-spacing: -1px;
+  font-size:  40px;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 .divide {
     width: 100%;
@@ -122,41 +161,31 @@ h1 {
     margin-bottom: 10px;   
 }
 .col-8 h3{
-    margin-left: 15px;
-    font-weight: lighter;
+    font-size: 16px;
+    font-weight: 600;
+    color: #5555;
+    margin-left: 20px;
     margin-bottom: 0;
-    font-size: 15px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .col-8 p {
-    margin: 5px 15px 50px 15px;
+    margin: 5px 20px 50px 20px;
     font-family: times;
     color: gray;
     font-weight: bold;
-    font-size: 20px;
-    
+    font-size: 25px;  
 }
 .col-4 img {
     display: block;
-    margin: 10px auto;
+    margin: 20px auto;
     padding: 0;
-    width: 55%;
-}
-.col-8 h1 {
-    margin: 0 15px;
-    font-family: georgia;
-    font-size: 25px;
-    font-weight: bold;
-}
-a {
-    font-size: 30px;
-    color: #677a98;
-    margin: 0 15px;
+    width: 60%;
 }
 .play {
-    background-color: rgb(240,240,240);
-    height: 15px;
-    margin: 10px 0 50px 10px;
+    color: #79b;
+    font-size: 35px;
+    height: 55px;
+    margin: 20px;
 }
      
 
